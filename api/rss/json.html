@@ -1,0 +1,254 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Evervault Papers",
+    "home_page_url": "http://evervault.com/papers",
+    "feed_url": "https://evervault.com/api/rss/json",
+    "description": "The most important cryptography papers spanning the past, present, and future of cryptosystems & cryptology.",
+    "icon": "https://evervault.com/social/papers.png",
+    "author": {
+        "name": "Evervault",
+        "url": "https://evervault.com"
+    },
+    "items": [
+        {
+            "id": "https://evervault.com/papers/grover",
+            "content_html": "<p>In <a href=../../_https_/evervault.com/papers/grover.pdf/_.html>A fast quantum mechanical algorithm for database search</a>, Grover provided an algorithm that is threatening to industry-standard symmetric cryptography, like the Advanced Encryption Standard (AES). </p>\n<p>Grover’s algorithm can find the input of a black box function, given its output, to a high probability in O(√n) time. Grover’s algorithm is asymptotically optimal. That is, Grover’s algorithm helps quantum computers search possible permutations as fast as is theoretically possible.</p>\n<p>The consequence of Grover’s algorithm on industry-standard symmetric cryptosystems is that an attack utilizing Grover’s algorithm would reduce the security of AES-256 to the equivalent security of AES-128. </p>\n<p>The general rule of thumb for designing schemes which are resistant to attacks through Grover’s algorithm is to simply double the bit size of the scheme (i.e. use AES-256 instead of AES-128) as Grover’s algorithm can be used to crack a 256-bit scheme in 2^128 iterations rather than 2^256.</p>",
+            "url": "https://evervault.com/papers/grover",
+            "title": "A fast quantum mechanical algorithm for database search",
+            "summary": "Grover provided an algorithm that is threatening to industry-standard symmetric cryptography.",
+            "date_modified": "2021-03-25T15:33:00.000Z",
+            "date_published": "2021-03-25T15:33:00.000Z",
+            "author": {
+                "name": "Lov K. Grover"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/moore",
+            "content_html": "<p>This paper is the origin of what has become known as Moore’s Law, which states that the number of transistors on integrated circuits doubles approximately every two years. Moore’s Law is directly related to other aspects of progress in computing, including processing speed, product price, and memory capacity.</p>\n<blockquote>\n  <p>Cryptographic algorithms are all vulnerable to brute force–trying every possible encryption key, systematically searching for hash-function collisions, factoring the large composite number, and so forth–and brute force gets easier with time (due to Moore’s Law).”\n  — <a href=../../_https_/www.schneier.com/essays/archives/1998/05/the_crypto_bomb_is_t.html/_.html>Bruce Schneier</a></p>\n</blockquote>\n<p>Moore’s Law is directly related to cryptography or, more specifically, to cryptanalysis.</p>",
+            "url": "https://evervault.com/papers/moore",
+            "title": "Cramming more components onto integrated circuits",
+            "summary": "This paper is the origin of what has become known as Moore’s Law, which states that the number of transistors on integrated circuits doubles approximately every two years. Moore’s Law is directly related to other aspects of progress in computing, including processing speed, product price, and memory capacity.",
+            "date_modified": "2021-03-25T12:09:00.000Z",
+            "date_published": "2021-03-25T12:09:00.000Z",
+            "author": {
+                "name": "Gordon Moore"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/satoshi",
+            "content_html": "<p>Bitcoin is a peer-to-peer electronic cash system which does not require a third-party to verify transactions. Bitcoin builds on decades of research in public-key cryptography. </p>\n<p>The Bitcoin protocol was the first practical solution to the <a href=../../_https_/evervault.com/papers/lamport-shostak-pease.pdf/_.html>Byzantine Generals Problem</a>, which is about establishing trust between otherwise unrelated parties over an untrusted network:</p>\n<blockquote>\n  <p>[Imagine] a group of generals of the Byzantine army camped with their troops around an enemy city. Communicating only by messenger, the generals must agree upon a common battle plan. However, one or more of them may be traitors who will try to confuse the others. The problem is to find an algorithm to ensure that the loyal generals will reach agreement.”\n  — Leslie Lamport, Robert Shostak, and Marshall Pease</p>\n</blockquote>\n<p>Bitcoin uses a chain of digital signatures to make coins, and hash-based proof-of-work to solve the double-spending problem — the risk that an individual could concurrently send a single unit of currency to two different sources — without the need for a trusted third party.</p>\n<p>The ideas first introduced in Bitcoin have been further developed in other cryptocurrencies and cryptonetworks like <a href=../../_https_/ethereum.org/en/whitepaper/_.html>Ethereum</a>.</p>",
+            "url": "https://evervault.com/papers/satoshi",
+            "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "summary": "A Peer-to-Peer Electronic Cash System. The first cryptocurrency.",
+            "date_modified": "2021-04-08T12:05:00.000Z",
+            "date_published": "2021-04-08T12:05:00.000Z",
+            "author": {
+                "name": "Satoshi Nakamoto"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/rivest-shamir-adleman",
+            "content_html": "<p>In <a href=../../_https_/evervault.com/papers/diffie-hellman/_.html>New Directions in Cryptography</a>, Diffie &amp; Hellman proposed a theoretical construction of public-key cryptography (PKC).</p>\n<p>In <a href=../../_https_/evervault.com/papers/rivest-shamir-adleman.pdf/_.html>A Method for Obtaining Digital Signatures and Public Key Cryptosystems</a>, Rivest, Shamir, and Adleman provided the first practical implementation of PKC — and introduced us to Alice and Bob.</p>\n<p>Diffie <a href=../../_https_/evervault.com/papers/diffie-ten.pdf/_.html>would later call</a> the RSA system the single most spectacular contribution to public-key cryptography.</p>",
+            "url": "https://evervault.com/papers/rivest-shamir-adleman",
+            "title": "A Method for Obtaining Digital Signatures and Public Key Cryptosystems",
+            "summary": "The first practical implementation of public-key cryptography (PKC) — and introduced us to Alice and Bob.",
+            "date_modified": "2021-03-25T12:53:00.000Z",
+            "date_published": "2021-03-25T12:53:00.000Z",
+            "author": {
+                "name": "Ronald L. Rivest"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/zkp",
+            "content_html": "<p>In this paper, Shafi Goldwasser, Silvio Micali, and Charles Rackoffero introduced zero-knowledge proofs (ZKPs).</p>\n<p>ZKPs are a cryptographic technique that allows one party (a prover) to show another party (a verifier) that some computation is correct without revealing any information except the veracity of the statement. ZKPs provide the ability to prove the integrity of data — without revealing any underlying details about the data itself.</p>\n<p>Goldwasser, Micali, and Goldwasser created an efficient interactive proof system: a process in which a prover probabilistically convinces a verifier of the correctness of a mathematical proposition.</p>\n<p>In 2012, <a href=../../_https_/amturing.acm.org/award_winners/goldwasser_8627889.cfm/_.html>Goldwasser</a> and <a href=../../_https_/amturing.acm.org/award_winners/micali_9954407.cfm/_.html>Micali</a> received the A.M. Turing Award “for transformative work that laid the complexity-theoretic foundations for the science of cryptography.”</p>\n<p>A <a href=../../_https_/evervault.com/papers/zkp-1986.pdf/_.html>preliminary version</a> of the paper appeared in 1986, and was published in <a href=../../_https_/evervault.com/papers/zkp.pdf/_.html>revised form</a> in 1989.</p>",
+            "url": "https://evervault.com/papers/zkp",
+            "title": "The Knowledge Complexity of Interactive Proof-Systems",
+            "summary": "The introduction of introduced zero-knowledge proofs (ZKPs).",
+            "date_modified": "2021-05-06T07:28:00.000Z",
+            "date_published": "2021-05-06T07:28:00.000Z",
+            "author": {
+                "name": "Shafi Goldwasser"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/koblitz",
+            "content_html": "<p>This paper, along with <a href=../../_https_/evervault.com/papers/miller/_.html>Use of Elliptic Curves in Cryptography</a>, independently proposed the use of elliptic curves in cryptography.</p>\n<p>Unlike other public-key cryptosystems — like <a href=../../_https_/evervault.com/papers/rivest-shamir-adleman/_.html>RSA</a>, which relies on the fact that factoring large integers is slow and multiplication is fast (the Prime Factorization Problem) — elliptic curve cryptography (ECC) depends on the difficulty of the Elliptic Curve Discrete Logarithm Problem: given two points, P and Q, on an elliptic curve, find the integer n, if it exists, such that Q = nP.</p>\n<p>ECC provides similar security guarantees compared to RSA, but with significantly reduced key sizes and more efficient computation. ECC — specifically, Elliptic Curve Diffie-Hellman (ECDH) — is now the preferred authentication mechanism for secure web browsing over SSL/TLS.</p>",
+            "url": "https://evervault.com/papers/koblitz",
+            "title": "Elliptic Curve Cryptosystems",
+            "summary": "This paper proposed the use of elliptic curves in cryptography.",
+            "date_modified": "2021-03-25T12:55:00.000Z",
+            "date_published": "2021-03-25T12:55:00.000Z",
+            "author": {
+                "name": "Neal Koblitz"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/miller",
+            "content_html": "<p>This paper, along with <a href=../../_https_/evervault.com/papers/koblitz/_.html>Elliptic Curve Cryptosystems</a>, independently proposed the use of elliptic curves in cryptography.</p>\n<p>Unlike other public-key cryptosystems — like <a href=../../_https_/evervault.com/papers/rivest-shamir-adleman/_.html>RSA</a>, which relies on the fact that factoring large integers is slow and multiplication is fast (the Prime Factorization Problem) — elliptic curve cryptography (ECC) depends on the difficulty of the Elliptic Curve Discrete Logarithm Problem: given two points, P and Q, on an elliptic curve, find the integer n, if it exists, such that Q = nP.</p>\n<p>ECC provides similar security guarantees compared to RSA, but with significantly reduced key sizes and more efficient computation. ECC — specifically, Elliptic Curve Diffie-Hellman (ECDH) — is now the preferred authentication mechanism for secure web browsing over SSL/TLS.</p>",
+            "url": "https://evervault.com/papers/miller",
+            "title": "Use of Elliptic Curves in Cryptography",
+            "summary": "This paper proposed the use of elliptic curves in cryptography.",
+            "date_modified": "2021-03-25T12:57:00.000Z",
+            "date_published": "2021-03-25T12:57:00.000Z",
+            "author": {
+                "name": "Victor Miller"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/shannon",
+            "content_html": "<p>In 1948, Claude E. Shannon published the paper <a href=../../_https_/evervault.com/papers/shannon-communication.pdf/_.html>A Mathematical Theory of Communication</a>, which is seen as the foundation of modern information theory.</p>\n<p>In 1949, Shannon published <a href=../../_https_/evervault.com/papers/shannon-secrecy.pdf/_.html>Communication Theory of Secrecy Systems</a> which relates cryptography to information theory, and should be seen as the foundation of modern cryptography.</p>\n<p>Both papers derive from a technical report, <a href=../../_https_/evervault.com/papers/shannon.pdf/_.html>A Mathematical Theory of Cryptography</a>, written by Shannon in 1945. In this report, Shannon defined, and mathematically proved, perfect secrecy.</p>",
+            "url": "https://evervault.com/papers/shannon",
+            "title": "A Mathematical Theory of Cryptography",
+            "summary": "The foundation of modern cryptography.",
+            "date_modified": "2021-03-25T12:05:00.000Z",
+            "date_published": "2021-03-25T12:05:00.000Z",
+            "author": {
+                "name": "Claude E. Shannon"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/gentry",
+            "content_html": "<p>In <a href=../../_https_/evervault.com/papers/gentry.pdf/_.html>A fully homomorphic encryption scheme</a>, Gentry provides a plausible candidate construction of a fully homomorphic (FHE) scheme, answering the problem posed in 1978 by Rivest, Adleman, and Dertouzos in <a href=../../_https_/evervault.com/papers/rivest-adleman-dertouzos/_.html>On Data Banks and Privacy Homomorphisms</a>. </p>\n<p>A FHE cryptosystem is one that is homomorphic under both addition and multiplication and yet still secure. FHE makes it possible to perform arbitrary computations (mathematical operations like sum or product as well as more complicated operations) on encrypted data while it remains encrypted — and without needing a secret key.</p>\n<blockquote>\n  <p>To put everything online “in the cloud,” unencrypted, is to risk an Orwellian future.”\n  — Craig Gentry</p>\n</blockquote>\n<p>Although FHE is not yet practical for widespread implementation, Gentry’s breakthrough has enormous implications for making cloud computing more secure and compatible with the data privacy for individuals.</p>",
+            "url": "https://evervault.com/papers/gentry",
+            "title": "A fully homomorphic encryption scheme",
+            "summary": "The first plausible candidate construction of a fully homomorphic (FHE) scheme.",
+            "date_modified": "2021-04-01T09:09:00.000Z",
+            "date_published": "2021-04-01T09:09:00.000Z",
+            "author": {
+                "name": "Craig Gentry"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/program-obfuscation",
+            "content_html": "<p>The Papers below are about <a href=../../_https_/cacm.acm.org/magazines/2016/5/201597-hiding-secrets-in-software/fulltext/_.html><strong>program obfuscation</strong></a>. The aim of program obfuscation is to make a program <strong>unintelligible</strong> while <strong>preserving its functionality</strong>. “Unintelligible” means making a program provably secure against attackers, and “preserving its functionality” means that the obfuscated program remains fully executable and has the same input-output behavior as the original program.</p>\n<p>Program obfuscation enables one party, A,  to give another party, B, a program that <em>B can run</em> — without letting B figure out how the programs work.</p>\n<p>Program obfuscation was first introduced in 2001 in <a href=../../_https_/evervault.com/papers/program-obfuscation.pdf/_.html>On the (Im)possibility of Obfuscating Programs</a>; specifically, this Paper proved the impossibility of <strong>virtual black box obfuscation</strong>, and introduced the weaker <strong>indistinguishability obfuscation</strong> (IO). A <a href=../../_https_/evervault.com/papers/program-obfuscation-revised.pdf/_.html>revised version</a> of the paper was published in 2010.</p>\n<p>Other papers related to program obfuscation include <a href=../../_https_/evervault.com/papers/indistinguishability-obfuscation-functional-encryption.pdf/_.html>Candidate Indistinguishability Obfuscation and Functional Encryption for all circuits</a>, which proposed a candidate IO scheme; <a href=../../_https_/evervault.com/papers/indistinguishability-obfuscation-deniable-encryption.pdf/_.html>How to Use Indistinguishability Obfuscation: Deniable Encryption, and More</a>, which introduces the concept of punctured programs applied to IO, and resolves the deniable encryption problem; and <a href=../../_https_/evervault.com/papers/indistinguishability-obfuscation-well-founded.pdf/_.html>Indistinguishability Obfuscation from Well-Founded Assumptions</a>, which shows how to construct IO based on well-founded cryptographic assumptions. <a href=../../_https_/www.schneier.com/blog/about/_.html>Bruce Schneier</a> has <a href=../../_https_/www.schneier.com/blog/archives/2020/11/indistinguishability-obfuscation.html/_.html>provided</a> caveats about the latter paper.</p>",
+            "url": "https://evervault.com/papers/program-obfuscation",
+            "title": "On the (Im)possibility of Obfuscating Programs",
+            "summary": "Program obfuscation makes a program unintelligible while preserving its functionality.",
+            "date_modified": "2021-05-27T07:16:00.000Z",
+            "date_published": "2021-05-27T07:16:00.000Z",
+            "author": {
+                "name": "Boaz Barak"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/merkle-trees",
+            "content_html": "<p>In this Paper, Ralph C. Merkle devised the concept of <strong>Merkle trees</strong>. Merkle trees provide an efficient way to store data, saving memory and processing power.</p>\n<p>At the heart of Merkle trees is <strong>hashing</strong>. <strong>Hash functions</strong> are algorithms for computing a unique, fixed-length value (a <strong>hash</strong>) from data. A small change in the input of a hash function changes the hash value entirely; hashes are unique. Hash functions are one-way; hash values cannot be reversed to reveal the input. Merkle trees depend on hash uniqueness to organize and verify data.</p>\n<p>A Merkle tree is a tree of hashes. Each <strong>parent node</strong> in the tree has two or more <strong>child nodes</strong>. The original child nodes in the tree store hashes of plaintext data. The hash of a set of child nodes (<strong>sibling nodes</strong>) creates the hash of the parent node — a hash of a hash. This process of hashing continues all the way up until the <strong>root hash</strong> — the final hash in the tree.</p>\n<p>If at any point in the tree, the input of a hash is changed, this change will show in consequent hashes — including the root hash. <strong>Merkle proofs</strong> are used to verify that the hashes across all <strong>branches</strong> of the Merkle tree have not been tampered with.</p>\n<p>Merkle trees are a core component of cryptocurrencies like <a href=../../_https_/evervault.com/papers/satoshi/_.html>Bitcoin</a> and <a href=../../_https_/ethereum.org/en/whitepaper/index.html#merkle-trees\">Ethereum</a>.</p>",
+            "url": "https://evervault.com/papers/merkle-trees",
+            "title": "A Digital Signature Based on a Conventional Encryption Function",
+            "summary": "In this Paper, Ralph C. Merkle devised the concept of Merkle trees. Merkle trees provide an efficient way to store data, saving memory and processing power.",
+            "date_modified": "2021-05-13T14:21:00.000Z",
+            "date_published": "2021-05-13T14:21:00.000Z",
+            "author": {
+                "name": "Ralph C. Merkle"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/shor",
+            "content_html": "<p>Public-key cryptosystems have been based on the difficulty of two number theory problems: factoring integers (in the case of RSA) or finding discrete logarithms (in the case of elliptic-curve cryptosystems).</p>\n<p>In <a href=../../_https_/evervault.com/papers/shor.pdf/_.html>Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer</a>, Peter Shor shows that these problems can be solved in polynomial time on a quantum computer with a small probability of error.</p>\n<blockquote>\n  <p>If the only uses of quantum computation remain discrete logarithms and factoring, it will likely become a special-purpose technique whose only <em>raison d'être</em> is to thwart public key cryptosystems.”\n  — Peter Shor</p>\n</blockquote>\n<p>The consequence of Shor’s algorithm is that industry-standard public-key cryptosystems — including RSA &amp; ECDH which are used in TLS, the security protocol behind HTTPS — will easily be broken by quantum computers. NIST is in the process of <a href=../../_https_/csrc.nist.gov/Projects/post-quantum-cryptography/post-quantum-cryptography-standardization/_.html>standardizing public-key cryptography algorithms</a> that are secure against quantum computers.</p>\n<p>Once standardized, our aim at Evervault will be to accelerate the deployment of quantum-resistant cryptography to protect data across the web.</p>",
+            "url": "https://evervault.com/papers/shor",
+            "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "summary": "How quantum computers will make it easier and faster to break industry-standard asymmetric (i.e. public-key) and symmetric (i.e. private-key) cryptosystems. ",
+            "date_modified": "2021-03-25T15:25:00.000Z",
+            "date_published": "2021-03-25T15:25:00.000Z",
+            "author": {
+                "name": "Peter Shor"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/diffie-hellman",
+            "content_html": "<p>This paper introduced the concept of public-key cryptography (i.e. asymmetric cryptography).</p>\n<p>Simply, public-key cryptography uses one key for encryption and another for decryption, which allows two parties to engage in a secure communication over a non-secure communications channel without having to share a secret key.</p>",
+            "url": "https://evervault.com/papers/diffie-hellman",
+            "title": "New Directions in Cryptography",
+            "summary": "This paper introduced the concept of public-key cryptography (i.e. asymmetric cryptography).",
+            "date_modified": "2021-03-25T12:11:00.000Z",
+            "date_published": "2021-03-25T12:11:00.000Z",
+            "author": {
+                "name": "Whitfield Diffie"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/cryptdb",
+            "content_html": "<p>End-to-end encrypted databases — that allow encrypted data to be processed without the decryption keys — are an intermediate design point before practical <a href=../../_https_/evervault.com/papers/gentry/_.html>fully-homomorphic encryption (FHE)</a>.</p>\n<blockquote>\n  <p>Whether in-the-cloud or on-premise there is a shift to a model where individual applications need to protect themselves instead of relying on firewall-like techniques. That goes especially for the interaction between applications and storage engines, and between applications and databases.”\n  — Werner Vogels, Amazon.com CTO</p>\n</blockquote>\n<p><a href=../../_https_/evervault.com/papers/cryptdb.pdf/_.html>CryptDB</a> is a system that provides practical and provable confidentiality for applications backed by SQL databases. It works by executing SQL queries over encrypted data using a collection of efficient SQL-aware encryption schemes.</p>\n<blockquote>\n  <p>CryptDB is the first practical system that can execute a wide range of SQL queries over encrypted data. The key insight that makes our approach practical is that most SQL queries use a small set of well-defined operators, each of which we are able to support efficiently over encrypted data.”\n  — <a href=../../_https_/cacm.acm.org/magazines/2012/9/154574-cryptdb-processing-queries-on-an-encrypted-database/fulltext/_.html>Ada Popa, Redfield, Zeldovich, and Balakrishnan</a></p>\n</blockquote>",
+            "url": "https://evervault.com/papers/cryptdb",
+            "title": "CryptDB: Protecting Confidentiality with Encrypted Query Processing",
+            "summary": "CryptDB is a system that provides practical and provable confidentiality for applications backed by SQL databases.",
+            "date_modified": "2021-04-21T15:06:00.000Z",
+            "date_published": "2021-04-21T15:06:00.000Z",
+            "author": {
+                "name": "Raluca Ada Popa"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/rivest-adleman-dertouzos",
+            "content_html": "<p>In <a href=../../_https_/evervault.com/papers/rivest-adleman-dertouzos.pdf/_.html>On Data Banks and Privacy Homomorphisms</a>, Rivest, Adleman, and Dertouzos proposed the problems of (1) modifying a hardware computer system to solve the problem of performing operations on encrypted data securely, and (2) the problem of constructing what has come to be known as a fully-homomorphic encryption (FHE) scheme.</p>\n<p>The RSA public-key cryptosystem is a partially homomorphic encryption scheme, where the multiplication of the ciphertext <em>C</em> is reflected in the plaintext <em>P</em>:</p>\n<blockquote>\n  <p>Encrypt P to get C, multiply C by 2, and then decrypt 2C — and you get 2P. That’s a homomorphism: perform some mathematical operation to the ciphertext, and that operation is reflected in the plaintext.”\n  — <a href=../../_https_/www.schneier.com/blog/archives/2009/07/homomorphic_enc.html/_.html>Bruce Schneier</a></p>\n</blockquote>\n<p>A FHE cryptosystem is one that is homomorphic under both addition and multiplication and yet still secure. FHE makes it possible to perform arbitrary computations on encrypted data while it remains encrypted — and without needing a secret key. In short, you can process encrypted data without ever decrypting it.</p>\n<p>It was not until 2009 when Craig Gentry <a href=../../_https_/evervault.com/papers/gentry/_.html>published</a> a plausible construction of a FHE scheme.</p>",
+            "url": "https://evervault.com/papers/rivest-adleman-dertouzos",
+            "title": "On Data Banks and Privacy Homomorphisms",
+            "summary": "This Paper proposed the problems of (1) modifying a hardware computer system to solve the problem of performing operations on encrypted data securely, and (2) the problem of constructing a fully-homomorphic encryption (FHE) scheme",
+            "date_modified": "2021-04-01T08:37:00.000Z",
+            "date_published": "2021-04-01T08:37:00.000Z",
+            "author": {
+                "name": "Ronald L. Rivest"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/chaum",
+            "content_html": "<p>This paper is the first known proposal for a blockchain protocol. </p>\n<p>Chaum describes the design of a distributed computer system that can be established, maintained, and trusted by mutually suspicious groups.</p>\n<p>It is a public record-keeping system with group membership consistency and private transaction computations that protects individual privacy through physical security. </p>\n<p>The building blocks of this system include physically-secure “vaults”, existing cryptographic primitives (symmetric and <a href=../../_https_/evervault.com/papers/diffie-hellman/_.html>asymmetric encryption</a>, cryptographic hash functions, digital signatures), and a new primitive introduced by Chaum—threshold secret sharing, i.e. “where some threshold of sub-partial keys are sufficient to reconstruct the original partial key from which the sub-partials were originally formed”.</p>\n<p>For more on the history of blockchain technologies, consider <a href=../../_https_/www.evervault.com/papers/blockchain-origins.pdf/_.html>On the Origins and Variations of Blockchain Technologies</a>. </p>",
+            "url": "https://evervault.com/papers/chaum",
+            "title": "Computer Systems Established, Maintained and Trusted by Mutually Suspicious Groups ",
+            "summary": "This paper is the first known proposal for a blockchain protocol. ",
+            "date_modified": "2021-05-20T06:59:00.000Z",
+            "date_published": "2021-05-20T06:59:00.000Z",
+            "author": {
+                "name": "David L. Chaum"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/yao",
+            "content_html": "<p>In <a href=../../_http_/evervault.com/papers/yao.pdf/_.html>Protocols for Secure Computations</a>, Yao was the first to introduce the idea of secure multi-party computation (MPC). </p>\n<p>MPC enables a number of independent parties with private data to operate on the aggregation of their private data, and receive the result — without the parties learning each others’ private data.</p>\n<p>For a deeper dive into MPC, see <a href=../../_https_/securecomputation.org/_.html>A Pragmatic Introduction to Secure Multi-Party Computation</a>.</p>",
+            "url": "https://evervault.com/papers/yao",
+            "title": "Protocols for Secure Computations",
+            "summary": "The introduction of secure multi-party computation (MPC).",
+            "date_modified": "2021-04-15T08:50:00.000Z",
+            "date_published": "2021-04-15T08:50:00.000Z",
+            "author": {
+                "name": "Andrew C. Yao"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/key-length",
+            "content_html": "<p>The strength of cryptography lies in the choice and management of the encryption keys. </p>\n<p>While mainly of historical interest, this paper, by \"an ad hoc group of cryptographers and computer scientists\", shows that longer keys will resist attack better than shorter keys, that the cost of very strong encryption is not significantly greater than that of weak encryption, and that it is prudent to require that encrypted data should still be secure in 20 years.</p>\n<blockquote>\n  <p>The sizes of encryption keys are measured in bits and the difficulty of trying all possible keys grows exponentially with the number of bits used. Adding one bit to the key doubles the number of possible keys, adding ten increases it by a factor of more than a thousand.”</p>\n</blockquote>",
+            "url": "https://evervault.com/papers/key-length",
+            "title": "Minimal Key Lengths for Symmetric Ciphers to Provide Adequate Commercial Security",
+            "summary": "The strength of cryptography lies in the choice and management of the encryption keys. The importance of key-length. ",
+            "date_modified": "2021-04-29T07:13:00.000Z",
+            "date_published": "2021-04-29T07:13:00.000Z",
+            "author": {
+                "name": "Matt Blaze"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/kerckhoffs",
+            "content_html": "<p>This paper is the origin of <strong>Kerckhoffs’ Principle</strong> which states that the security of a cryptosystem must lie in the choice of its keys only; everything else (including the algorithm itself) should be considered public knowledge.</p>\n<p>The corollary of Kerckhoffs’ Principle is that a developer should <em>only</em> use cryptosystems about which everything is known. This is a first principle for us at Evervault.</p>",
+            "url": "https://evervault.com/papers/kerckhoffs",
+            "title": "La Cryptographie Militaire",
+            "summary": "This paper is the origin of Kerckhoffs’ Principle which states that the security of a cryptosystem must lie in the choice of its keys only; everything else (including the algorithm itself) should be considered public knowledge.",
+            "date_modified": "2021-03-25T10:49:00.000Z",
+            "date_published": "2021-03-25T10:49:00.000Z",
+            "author": {
+                "name": "Auguste Kerckhoffs"
+            }
+        },
+        {
+            "id": "https://evervault.com/papers/non-malleable-cryptography",
+            "content_html": "<p>Malleable means capable of being transformed into another shape or form without breaking or cracking. </p>\n<p>Non-malleability as defined in Semantic Security [Goldwasser and Micali, 1982] says that for any relation, seeing an encryption of a message doesn't help us to find the plaintext details of the message. The adversary learns nothing about the original message just by seeing an encryption of the message and can produce no plaintext related to the message.</p>\n<p>The notion of non-malleable cryptography, an extension of semantically secure cryptography goes one step further in that given the ciphertext of a message, it is impossible to generate a different ciphertext so that the respective plaintexts are related.</p>\n<p>The same concept makes sense in the contexts of string commitment and zero-knowledge proofs of possession of knowledge. Non-malleable schemes for each of these three problems are presented. The schemes do not assume a trusted center; a user need not know anything about the number or identity of other system users.</p>\n<p>At time of publishing this cryptosystem was the first proven to be secure against a strong type of chosen ciphertext attack proposed by Rackoff and Simon, in which the attacker knows the ciphertext she wishes to break and can query the decryption oracle on any ciphertext other than the target.</p>",
+            "url": "https://evervault.com/papers/non-malleable-cryptography",
+            "title": "Non-Malleable Cryptography",
+            "summary": "Non-Malleable Cryptography means that given the ciphertext of a message, it is impossible to generate a different ciphertext so that the respective plaintexts are related.",
+            "date_modified": "2023-03-08T12:55:00.000Z",
+            "date_published": "2023-03-08T12:55:00.000Z",
+            "author": {
+                "name": "Danny Dolev"
+            }
+        }
+    ]
+}
